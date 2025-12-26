@@ -15,4 +15,5 @@ def get_sum(d):
         return 0 if any(x == 'red' for x in d.values()) else sum(get_sum(x) for x in d.values())
 
 d = json.loads(s)
+print(d)
 print(get_sum(d))
