@@ -20,7 +20,7 @@ def main():
     res = 0
     for data in rooms_data:
         room = data[:-1]
-        print(f"Room: {room}")
+        #print(f"Room: {room}")
         temp = list(data[-1].replace(']','').strip().split('['))
         Id = int(temp[0])
         checkSum = temp[1]
