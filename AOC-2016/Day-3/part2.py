@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 df = pd.read_csv('input.txt', header=None, sep='\s+') # type: ignore
 
