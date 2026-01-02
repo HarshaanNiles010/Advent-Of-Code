@@ -39,8 +39,8 @@ def main():
         if get_freq_table(room) == check_sum:
             decrypt = get_decrypt(room, cipher_key)
             print(i,decrypt)
-            #if 'north' in decrypt:
-            #    print(f"decrypt is: {decrypt} and the index is: {rooms_data.index(data)}")
+            if 'north' in decrypt:
+                print(f"decrypt is: {decrypt} and the index is: {rooms_data.index(data)}")
         
 
 if __name__ == '__main__':
